@@ -11,3 +11,4 @@ let CaminanteSchema = new Schema({
     age: {type: Number, required: true},
 
 });
+ module.exports = mongoose.model('Caminante', CaminanteSchema);
